@@ -1,0 +1,80 @@
+*{
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+/* navigaitor */
+#navi{
+    width: 100%;
+    height: 130px;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+#navi a{
+    color: #fff;
+}
+.logo a{
+    font-weight: bold;
+    font-size: 24px;
+}
+.toolBox{
+    display: flex;
+    align-items: center;
+}
+.toolBox *{margin: 0 20px;}
+
+/* iframe wrap */
+
+#iframeWrap{
+    height: 55vh;
+}
+#carContent{
+    width: 100vw;
+    height: 55vh;
+    -ms-overflow-style: none;
+    border: none;
+    background-color: #d9d9d9;
+    position: absolute;
+}
+.controlBox{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.controlBox a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #0e0e0e;
+}
+.controlBox h3 {font-size: 20px; margin-bottom: 20px;}
+.controlBox .control{
+    width: 50%;
+    background-color: #0e0e0e;
+    padding: 20px;
+    border-radius: 20px;
+}
+.controlBox ul {
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+}
+.controlBox ul li {
+    
+}
+.controlBox li a:focus, .controlBox li:hover a{
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
