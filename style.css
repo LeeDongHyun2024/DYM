@@ -10,6 +10,7 @@
 h3{
     font-size: 24px;
     text-align: center;
+    margin: 40px 0;
 }
 main>div {
     margin-bottom: 160px;
@@ -22,7 +23,9 @@ main #banner{
     background-size: cover;
     padding: 0 160px;
 }
-
+main>section{
+    padding-bottom: 50px;
+}
 
 main #section1{
     display: flex;
@@ -39,7 +42,6 @@ main #section1 p{
 }
 
 main #section1 .inspectionWrap{
-    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     width: 1000px;
@@ -49,7 +51,7 @@ main .inspectionWrap .inspection{
     margin-bottom: 50px;
 }
 main #section2{
-    padding: 40px 0;
+    padding-bottom: 70px;
     width: 100%;
     text-align: center;
     border-top: 1px solid #292929;
@@ -65,11 +67,13 @@ main #section3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: black;
 }
 main #section3 div{
     width: 100%;
 }
 main #section3 h3{
+    color: #fff;
     margin: 50px 0;
     width: 100%;
 }
@@ -81,8 +85,10 @@ main #section3 .brandWrap{
     margin-bottom: 40px;
 }
 main #section3 .brandWrap img{
-    width: 23%;
-    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 15%;
+    margin: 30px
 }
 main #section3 .underBrandWrap{
     display: flex;
@@ -92,9 +98,13 @@ main #section3 .underBrandWrap{
     margin-bottom: 40px;
 }
 main #section3 .underBrandWrap img{
+    background-color: #fff;
     height: 70px;
     margin: 0 20px;
 }
+
+main #section4
+
 
 footer{
     position: relative;
